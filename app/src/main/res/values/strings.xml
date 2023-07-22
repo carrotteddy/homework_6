@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">homework_6</string>
+    <string name="email">Введите вашу почту</string>
+    <string name="join">Войти</string>
+    <string name="pass">Введите ваш пароль</string>
+    <string name="signIn">Вход</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="description">       Выполните вход \n или зарегистрируйтесь</string>
+    <string name="forgottenPass">Забыл пароль?</string>
+    <string name="successfulSignIn">Вы успешно авторизовались</string>
+</resources>
