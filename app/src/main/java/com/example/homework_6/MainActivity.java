@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         signInBtn.setOnClickListener(v -> {
-            String emailText = emailEd.getText().toString().trim();
-            String passText = passEd.getText().toString().trim();
+            String emailText = emailEd.getText().toString();
+            String passText = passEd.getText().toString();
             if(!emailText.isEmpty() && !passText.isEmpty()) {
                 if (emailText.equals("admin") || passText.equals("admin")) {
                  edContainer.setVisibility(View.GONE);
