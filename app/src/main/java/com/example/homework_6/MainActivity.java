@@ -42,8 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
+                String inputText = emailEd.getText().toString();
+                if(!inputText.isEmpty()){
                 signInBtn.setBackgroundResource(R.drawable.ic_btn_rectangle);
                 signInBtn.setEnabled(true);
+                } else{
+                    signInBtn.setBackgroundResource(R.drawable.ic_grey_btn_background);
+                    signInBtn.setEnabled(false);
+                }
             }
         });
 
